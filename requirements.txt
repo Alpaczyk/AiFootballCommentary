@@ -1,0 +1,8 @@
+# Python dependencies of AI Football Commentary.
+# Last verified in 2023 - see the "Historical project" section of the README.
+#
+# NOTE: the code uses the legacy pre-1.0 OpenAI API (openai.Completion.create
+# with the retired text-davinci-003 model), so the SDK version must be < 1.0.
+# GFootball itself is installed separately (see its README).
+openai<1.0
+absl-py
